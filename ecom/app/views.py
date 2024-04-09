@@ -41,6 +41,7 @@ def orders(request):
  return render(request, 'app/orders.html')
 
 #class view
+#class view
 class Laptop(View):
     def get(self,request,data=None):
         if data == None:
